@@ -49,9 +49,8 @@ public class SecurityConfig {
    @Bean
    public CorsConfigurationSource corsConfigurationSource() {
       CorsConfiguration configuration = new CorsConfiguration();
-      // Permitir tanto o localhost (para desenvolvimento) quanto o frontend no Vercel
+      // Permitir o frontend no Vercel
        configuration.setAllowedOrigins(Arrays.asList(
-           "http://localhost:4200",  // Frontend local
            "https://taskflow-frontend-kappa.vercel.app"  // Frontend no Vercel
        ));
       configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
