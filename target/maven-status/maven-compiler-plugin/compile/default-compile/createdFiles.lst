@@ -15,6 +15,7 @@ com/example/taskapp/security/JwtAuthenticationFilter.class
 com/example/taskapp/security/JwtService.class
 com/example/taskapp/controller/AuthenticationController.class
 com/example/taskapp/repository/UserRepository.class
+com/example/taskapp/exception/GlobalExceptionHandler.class
 com/example/taskapp/entity/User.class
 com/example/taskapp/config/SecurityConfig.class
 com/example/taskapp/service/AuthenticationService.class
